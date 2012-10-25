@@ -27,6 +27,7 @@ namespace LambdaStudios.InHouse.Persistence.Entities
             Addresses = new List<Address>();
             Contacts = new List<Contact>();
             Roles = new List<Role>();
+            Adverts = new List<Advert>();
         }
 
         /// <summary>
@@ -76,5 +77,21 @@ namespace LambdaStudios.InHouse.Persistence.Entities
         /// The roles.
         /// </value>
         public virtual IList<Role> Roles { get; set; }
+
+        /// <summary>
+        /// Gets the adverts.
+        /// </summary>
+        /// <value>
+        /// The adverts.
+        /// </value>
+        public virtual IList<Advert> Adverts { get; private set; } 
+
+        /// <summary>
+        /// Gets or sets the password.
+        /// </summary>
+        /// <value>
+        /// The password.
+        /// </value>
+        public virtual string Password { get; set; }
     }
 }

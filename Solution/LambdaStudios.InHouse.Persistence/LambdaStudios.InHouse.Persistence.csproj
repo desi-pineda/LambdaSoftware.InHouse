@@ -42,15 +42,20 @@
   <ItemGroup>
     <Compile Include="Entities\Address.cs" />
     <Compile Include="Catalog.cs" />
+    <Compile Include="Entities\Advert.cs" />
+    <Compile Include="Entities\AdvertTemplate.cs" />
+    <Compile Include="Entities\AdvertType.cs" />
     <Compile Include="Entities\Attachment.cs" />
     <Compile Include="Entities\Company.cs" />
     <Compile Include="Entities\AppUser.cs" />
     <Compile Include="Entities\Contact.cs" />
     <Compile Include="Entities\AttachmentType.cs" />
+    <Compile Include="Entities\InteractionType.cs" />
     <Compile Include="Entities\Notification.cs" />
     <Compile Include="Entities\NotificationType.cs" />
     <Compile Include="Entities\Role.cs" />
     <Compile Include="Entities\State.cs" />
+    <Compile Include="Entities\Visitor.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
