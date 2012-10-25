@@ -48,5 +48,21 @@ namespace LambdaStudios.InHouse.Persistence.Entities
         /// The type.
         /// </value>
         public virtual InteractionType Type { get; set; }
+
+        /// <summary>
+        /// Gets or sets the comment.
+        /// </summary>
+        /// <value>
+        /// The comment.
+        /// </value>
+        public virtual string Comment { get; set; }
+
+        /// <summary>
+        /// Gets or sets the rate.
+        /// </summary>
+        /// <value>
+        /// The rate.
+        /// </value>
+        public virtual int? Rate { get; set; }
     }
 }
