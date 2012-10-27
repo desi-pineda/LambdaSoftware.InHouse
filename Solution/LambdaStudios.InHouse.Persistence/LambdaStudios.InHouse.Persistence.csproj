@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configurations\NHConfiguration.cs" />
     <Compile Include="Entities\Address.cs" />
     <Compile Include="Catalog.cs" />
     <Compile Include="Entities\Advert.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Entities\State.cs" />
     <Compile Include="Entities\Visitor.cs" />
     <Compile Include="Entity.cs" />
+    <Compile Include="IBootstrapper.cs" />
     <Compile Include="Mappings\InteractionMap.cs" />
     <Compile Include="Mappings\InteractionTypeMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
